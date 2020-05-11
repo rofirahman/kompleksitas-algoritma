@@ -8,5 +8,9 @@ console.timeEnd("perulangan pada smallArr")
 
 
 console.time("perulangan pada bigArr")
-bigArr.forEach(item => console.log(item));
+console.group("Item loop")
+bigArr.forEach(item =>
+        console.log(item)
+    );
+console.groupEnd()
 console.timeEnd("perulangan pada bigArr")

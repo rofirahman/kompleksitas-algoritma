@@ -23,6 +23,6 @@ console.time("sort pada smallArr")
 sort(smallArr);
 console.timeEnd("sort pada smallArr")
 
-console.time("sort pada smallArr")
+console.time("sort pada bigArr")
 sort(bigArr);
-console.timeEnd("sort pada smallArr")
+console.timeEnd("sort pada bigArr")
